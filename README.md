@@ -57,3 +57,38 @@ Explore the app here:
 ```bash
 git clone https://github.com/Amannpy/Resume-Raptor.git
 cd Resume-Raptor
+2. Install Dependencies
+It’s recommended to use a virtual environment.
+
+bash
+Copy
+Edit
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+3. Add API Keys
+Create a .env file inside the utils/ directory with the following contents:
+
+env
+Copy
+Edit
+GOOGLE_API_KEY=your_google_gemini_api_key
+OPENROUTER_API_KEY=your_openrouter_api_key
+The .env file is used to securely load environment variables. It is excluded from version control via .gitignore.
+
+Make sure your code uses load_dotenv(dotenv_path='utils/.env') to load it correctly.
+
+Deployment on Streamlit Cloud
+If deploying to Streamlit Cloud, manually add your secrets in the Streamlit Secrets Manager.
+
+Use the following TOML format:
+
+toml
+Copy
+Edit
+[secrets]
+GOOGLE_API_KEY = "your_google_gemini_api_key"
+OPENROUTER_API_KEY = "your_openrouter_api_key"
+These are automatically injected as environment variables at runtime. You do not need a .env file during deployment.
+
+
