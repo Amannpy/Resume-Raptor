@@ -25,7 +25,9 @@
 
 ## Screenshots
 
-
+![resume1](https://github.com/user-attachments/assets/522fa145-de5c-4531-9ffe-c94085bf883d)
+![resume2](https://github.com/user-attachments/assets/91f481c0-8dd1-4554-bbff-ddcade8f9676)
+![resume3](https://github.com/user-attachments/assets/21cb7cc0-2b31-4bae-84e7-a89b3858fa57)
 ---
 
 ## Tech Stack
@@ -45,7 +47,7 @@ Check out the live deployed app here:
 
 ---
 
-## 🧠 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 
