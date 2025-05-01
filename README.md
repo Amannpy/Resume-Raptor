@@ -1,4 +1,4 @@
-# ResumeRaptor
+# Resume Raptor
 
 **ResumeRaptor** is an AI-powered resume analysis and feedback tool that leverages **Google Gemini AI**, **OCR**, and **web scraping** to help candidates optimize their resumes based on job roles and descriptions. It supports PDF and DOCX files, making it accessible and flexible for modern job seekers.
 
