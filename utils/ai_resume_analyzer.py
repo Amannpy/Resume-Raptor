@@ -15,11 +15,11 @@ import re
 class AIResumeAnalyzer:
     def __init__(self):
         # Load environment variables
-        load_dotenv()
+        #load_dotenv()
         
         # Configure Google Gemini AI
-        self.google_api_key = os.getenv("GOOGLE_API_KEY")
-        self.openrouter_api_key = os.getenv("OPENROUTER_API_KEY")
+        self.google_api_key = st.secrets.get("GOOGLE_API_KEY")
+        self.openrouter_api_key = st.secrets.get("OPENROUTER_API_KEY")
         
         if self.google_api_key:
             genai.configure(api_key=self.google_api_key)
