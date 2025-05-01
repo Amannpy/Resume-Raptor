@@ -25,25 +25,28 @@
 
 ## Screenshots
 
-![resume1](https://github.com/user-attachments/assets/522fa145-de5c-4531-9ffe-c94085bf883d)
-![resume2](https://github.com/user-attachments/assets/91f481c0-8dd1-4554-bbff-ddcade8f9676)
+![resume1](https://github.com/user-attachments/assets/522fa145-de5c-4531-9ffe-c94085bf883d)  
+![resume2](https://github.com/user-attachments/assets/91f481c0-8dd1-4554-bbff-ddcade8f9676)  
 ![resume3](https://github.com/user-attachments/assets/21cb7cc0-2b31-4bae-84e7-a89b3858fa57)
+
 ---
 
 ## Tech Stack
 
-- **Frontend & App Framework**: Streamlit (Python)
+- **App Framework**: Streamlit (Python)
 - **AI Model**: Google Gemini via `google.generativeai`
-- **OCR & PDF Parsing**: `pdfplumber`, `PyPDF2`, `Poppler`, `pdf2image`
+- **OCR & Parsing**: `pdfplumber`, `PyPDF2`, `Poppler`, `pdf2image`
 - **Web Scraping**: `Selenium`, `requests`
-- **Environment Management**: `.env` (local), Streamlit Secrets (deployment)
+- **Secrets Management**: `.env` (local) & Streamlit Secrets (for deployment)
 
 ---
 
 ## 🚀 Live Demo
 
-Check out the live deployed app here:  
+Explore the app here:  
 **🔗 [https://resumeraptor.streamlit.app/](https://resumeraptor.streamlit.app/)**
+
+> Note: Due to recent behavior on Streamlit Cloud around environment variable resolution, some AI analysis functionality may not be active in the hosted version. For full capability, it's recommended to run the app locally.
 
 ---
 
